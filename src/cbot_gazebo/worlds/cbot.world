@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="201x_world">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!--<include>
+      <uri>model://turtlebot</uri>
+      <name>botA</name>
+      <pose>0 0 1.0 0 0 0</pose>
+    </include>-->
+
+    <include>
+      <uri>model://cbot</uri>
+      <name>botB</name>
+      <pose>0 0 1.0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>
